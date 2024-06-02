@@ -1,3 +1,4 @@
+require('dotenv').config();
 import { test, expect } from '@playwright/test';
 import MainPage from '../src/pageObjects/MainPage';
 import RegistrationModal from '../src/pageObjects/RegistrationModal';
